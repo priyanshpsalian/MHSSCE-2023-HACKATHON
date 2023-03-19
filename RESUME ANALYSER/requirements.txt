@@ -1,0 +1,19 @@
+# pafy==0.5.5
+# pandas==1.4.2
+# pdfminer3==2018.12.3.0
+# Pillow==9.4.0
+# plotly==5.6.0
+# PyMySQL==1.0.2
+# pyresparser==1.0.6
+# spacy==2.3.5
+# streamlit==1.20.0
+# streamlit_tags==1.2.8
+pdfminer3
+pyresparser
+streamlit
+pandas
+pafy
+plotly
+pymysql
+streamlit-tags
+Pillow

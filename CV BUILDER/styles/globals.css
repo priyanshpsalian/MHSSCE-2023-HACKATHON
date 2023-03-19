@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+
+
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .myList li::before {
+    counter-increment: list-item;
+    content: counter(list-item);
+    font-size: 0rem;
+    width: 6px;
+    height: 6px;
+    margin-top: 4px;
+    rotate: 45deg;
+    background: Gainsboro;
+    border: solid 1px black;
+    left: -10px;
+    border-radius: 40%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+  }
+
+  code,
+  kbd,
+  samp,
+  pre {
+    white-space: break-spaces;
+  }
+
+  html {
+    font-family: "Roboto Flex", sans-serif;
+    line-height: 1.5;
+    color: #212529;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  :root {
+    --form-control-color: rebeccapurple;
+    --form-control-disabled: #f3f2f3;
+  }
+
+  .meshGradient {
+    background-color: #fd99ff;
+    background-image: radial-gradient(
+        at 4% 21%,
+        hsla(283, 73%, 79%, 1) 0px,
+        transparent 50%
+      ),
+      radial-gradient(at 32% 91%, hsla(297, 97%, 74%, 1) 0px, transparent 50%),
+      radial-gradient(at 11% 20%, hsla(83, 93%, 75%, 1) 0px, transparent 50%),
+      radial-gradient(at 98% 98%, hsla(205, 83%, 69%, 1) 0px, transparent 50%),
+      radial-gradient(at 98% 3%, hsla(211, 64%, 73%, 1) 0px, transparent 50%),
+      radial-gradient(at 78% 11%, hsla(235, 74%, 78%, 1) 0px, transparent 50%),
+      radial-gradient(at 78% 65%, hsla(27, 77%, 71%, 1) 0px, transparent 50%);
+  }
+
+  input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+
+    font: inherit;
+    /* color: currentColor; */
+    background-color: #ffffff;
+    width: 1.15em;
+    height: 1.15em;
+    border: 1px solid rgb(209, 213, 219);
+    border-radius: 0.35em;
+    transform: translateY(-0.075em);
+
+    display: grid;
+    place-content: center;
+  }
+
+  input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    clip-path: circle(50% at 50% 50%);
+    transform: scale(0);
+    transform-origin: center;
+    transition: 120ms transform ease-in-out;
+    background-color: CanvasText;
+  }
+
+  input[type="checkbox"]:checked::before {
+    transform: scale(0.85);
+    transform-origin: center;
+  }
+
+  input[type="checkbox"]:focus {
+    outline: 2px solid;
+    outline-offset: max(2px, 0.15em);
+  }
+
+  @keyframes details-show {
+    from {
+      opacity: 0;
+      transform: var(--details-translate, translateY(-0.5em));
+    }
+  }
+
+  details[open] > *:not(summary) {
+    animation: details-show 150ms ease-in-out;
+  }
+
+  .settings {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .settings::-webkit-scrollbar {
+    display: none;
+  }
+  .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 120px 120px 120px;
+    border-color: transparent transparent #121212 transparent;
+  }
+}
+
+.creatorData {
+  @apply border-rose-500 border-2 ml-2 py-1 px-4 rounded-lg text-rose-500;
+}
+
+.resetButton {
+  @apply transition-all hover:scale-[1.01]  active:scale-[0.96]  py-1 px-4 rounded-lg text-white;
+}
+
+.detailsStyle {
+  @apply py-2 cursor-pointer mb-4 rounded-lg flex transition-all  bg-gray-200;
+}
+
+.detailsTitle {
+  @apply text-sky-800 pl-5;
+}
+
+.cardStyle {
+  @apply flex flex-col mb-10 rounded-3xl bg-[#FAFBFC] shadow z-10 p-5 relative;
+}
+
+.inputStyle {
+  @apply w-full mt-1 bg-white rounded-xl p-2 border shadow border-gray-300;
+}
+
+.skillInput {
+  @apply w-full mt-1 mb-2 bg-white rounded-xl p-2 border border-gray-300;
+}
+
+.addButton {
+  @apply w-12 h-12 flex justify-center transition-all hover:scale-105  py-1 px-4 rounded-lg text-white;
+}
+
+.tagStyle {
+  @apply inline-flex  text-sm items-center align-middle  overflow-hidden py-1 px-2 m-1 rounded-lg relative;
+}
+
+.tagDeleteButton {
+  @apply rounded-md inline h-5 w-5 transition-all;
+}
+
+.deleteButton {
+  @apply absolute top-[2px]  ease-in bg-gray-200/50  hover:bg-gray-300/50 transition-all rounded-lg p-1  right-0;
+}
+
+.deleteButtonSVG {
+  @apply w-5 h-5 fill-gray-400;
+}
+
+.projectAndExperienceTitle {
+  @apply w-full  bg-gray-200 text-neutral-500 shadow-inner p-1 mb-1 rounded-lg text-center relative;
+}
+
+.buttonHover {
+  @apply hover:text-neutral-700 hover:scale-105 hover:drop-shadow-md transition-all;
+}

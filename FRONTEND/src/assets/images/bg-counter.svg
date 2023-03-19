@@ -1,0 +1,26 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300" width="1440" height="300">
+	<title>bg-counter-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #017d53 } 
+		.shp1 { opacity: 0.102;fill: #ffffff } 
+		.shp2 { opacity: 0.078;fill: #ffffff } 
+		.shp3 { opacity: 0.051;fill: #ffffff } 
+		.shp4 { opacity: 0.031;fill: #ffffff } 
+		.shp5 { opacity: 0.102;fill: #000000 } 
+		.shp6 { opacity: 0.078;fill: #000000 } 
+		.shp7 { opacity: 0.051;fill: #000000 } 
+		.shp8 { opacity: 0.031;fill: #000000 } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" class="shp0" d="M0 0L1440 0L1440 300L0 300L0 0Z" />
+		<path id="Layer" class="shp1" d="M1440 0L1303.95 0L1440 9.61L1440 0Z" />
+		<path id="Layer" class="shp2" d="M1303.95 0L1440 9.61L1440 95.67L929.98 0L1303.95 0Z" />
+		<path id="Layer" class="shp3" d="M929.98 0L1440 95.67L1440 185.33L834.36 0L929.98 0Z" />
+		<path id="Layer" class="shp4" d="M834.36 0L1440 185.33L1440 262.44L347.73 0L834.36 0Z" />
+		<path id="Layer" class="shp5" d="M0 300L233.8 300L0 161.19L0 300Z" />
+		<path id="Layer" class="shp6" d="M0 161.19L233.8 300L388.96 300L0 81.49L0 161.19Z" />
+		<path id="Layer" class="shp7" d="M0 81.49L388.96 300L718.6 300L0 73.48L0 81.49Z" />
+		<path id="Layer" class="shp8" d="M0 73.48L718.6 300L1141.61 300L0 32.45L0 73.48Z" />
+	</g>
+</svg>

@@ -1,0 +1,161 @@
+// @import "../scss/icons.scss";
+
+//SignUp Modal close
+.close {
+    background: transparent;
+    border: 0;
+    font-size: 12px;
+    padding: 1.35rem 1.25rem;
+    background: transparent
+        escape-svg(
+            url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#000'><path d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/></svg>")
+        )
+        center / 1em auto no-repeat;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    opacity: 0.5;
+    width: 1em;
+    height: 1em;
+    z-index: 2;
+}
+
+.close span {
+    display: none;
+}
+
+//section country/type layout 1
+.filter-search-form {
+    .selectForm__inner {
+        box-shadow: none !important;
+        border: 0;
+        font-size: 15px;
+        height: 60px;
+        padding: 16px 6px 15px 45px !important;
+        border-radius: 0;
+    }
+}
+
+.filter-input-box {
+    padding: 16px 6px 15px 45px;
+}
+
+.filter-search-form {
+    .selectForm__inner {
+        box-shadow: none !important;
+        border: 0;
+        font-size: 15px;
+        height: 60px;
+        padding: 16px 6px 15px 45px !important;
+        border-radius: 0;
+    }
+}
+
+//JobList
+.filler-job-form {
+    .form-select-option {
+        box-shadow: none !important;
+        border: 1;
+        font-size: 14px;
+        height: 44px;
+        padding: 6px 6px 7.5px 45px !important;
+        border-radius: 6px;
+    }
+}
+
+.filter-job-input-box-option {
+    box-shadow: none !important;
+    border: 1;
+    font-size: 14px;
+    height: 44px;
+    padding: 6px 6px 7.5px 45px !important;
+    border-radius: 6px;
+}
+
+//JobGrid
+.filler-job-form {
+    .selectForm__inner {
+        box-shadow: none !important;
+        border: 1;
+        font-size: 14px;
+        height: 44px;
+        padding: 6px 6px 7.5px 45px !important;
+        border-radius: 6px;
+    }
+}
+
+.filler-job-input-box {
+    box-shadow: none !important;
+    border: 1;
+    font-size: 14px;
+    height: 44px;
+    padding: 6px 6px 7.5px 45px !important;
+    border-radius: 6px;
+}
+
+//Feature icon,Pricing Icon
+.featrue-icon,
+.pricing-icon,
+.popu-category-icon,
+.avatar-xs,
+.mode-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[class^="uil-"]:before,
+[class*=" uil-"]:before {
+    line-height: inherit;
+}
+//Candidate List (BookMark Icon)
+.favorite-icon {
+    a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+//Profile status Icon
+.profile-active {
+    padding: 5px;
+}
+
+//Candidate Details icons
+.list-unstyled {
+    li {
+        .icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+//About us/pricing page Counter
+.counter_custom {
+    .counter {
+        height: 1.2em !important;
+    }
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    height: 44px;
+}
+
+.noUi-horizontal {
+    height: 10px;
+    .noUi-handle {
+        height: 18px;
+        width: 18px;
+        top: -5px;
+    }
+}
+
+.noUi-tooltip {
+    font-size: 12px;
+    padding: 1px 4px;
+}

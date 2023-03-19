@@ -1,0 +1,34 @@
+
+let result = await fetch(
+      `http://localhost:3000/api/${MerchantUId}/${CouponCode}`
+    );
+result = await result.json();
+
+
+
+
+const details={
+    "CustomerId": "User ID of customer",
+    "data": [{
+        "Brand":"Sprite",
+        "Product":"250 ml Bottle",
+        "Selling Price":"45",
+        "Cost Price":"30",
+    },
+    {
+        "Brand":"Realme",
+        "Product":"Watch SE",
+        "Selling Price":"2000",
+        "Cost Price":"1500",
+    }
+    ]
+}
+let result = await fetch("http://localhost:3000/api/post/${MerchantUId}", {
+      method: "post",
+      body: JSON.stringify(details),
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    });
+result = await result.json();

@@ -1,0 +1,4 @@
+{
+    "mongoConnectionString":"mongodb://localhost:27017/capgeminidb",
+    "port":3004
+}
