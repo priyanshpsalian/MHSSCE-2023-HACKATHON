@@ -218,9 +218,7 @@ const ContactContent = () => {
                                     <div className="flex-shrink-0 fs-22 text-primary">
                                         <i className="uil uil-envelope"></i>
                                     </div>
-                                    <div className="flex-grow-1 ms-2">
-                                        <p className="mb-0">krishshah74@gmail.com</p>
-                                    </div>
+                                    
                                 </div>
                                 <div className="d-flex text-muted align-items-center mt-2">
                                     <div className="flex-shrink-0 fs-22 text-primary">
