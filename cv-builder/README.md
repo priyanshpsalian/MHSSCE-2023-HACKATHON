@@ -1,4 +1,5 @@
 [SITE LIVE HERE](https://master--magnificent-chimera-c0afee.netlify.app/)
+<br>
 This project helps you to prepare a good looking CV.
 
 ![Cover](https://user-images.githubusercontent.com/40598819/191097929-3f8b35ba-00e5-4627-8fe1-2e89a6d4055d.png)
