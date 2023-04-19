@@ -61,6 +61,11 @@ The proposed application aims to simplify the hiring process by offering the fol
 - `resume-analyser`: The neccessare api for analysing resume.
   <br />
 
+First of all clone the repository to your local machine.
+
+```sh
+git clone https://github.com/priyanshpsalian/SMART-COUPON
+```
 **Client**
 
 For local setup of frontend:
@@ -92,7 +97,7 @@ component
 
 For local setup:
 
-- `cd client`
+- `cd cv-builder`
 - `npm i`
 - `npm start`
 - Go to `localhost:3002`
@@ -123,7 +128,7 @@ The complete setup can be found in the [`resume-analyser` directory](./resume-an
 
 For local setup:
 
-- `cd client`
+- `cd chat`
 - `npm i`
 - `npm start`
 - Go to `localhost:3003`
