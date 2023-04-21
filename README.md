@@ -184,7 +184,7 @@ To contribute to this project, please follow these steps:
 
 # 🌟 Spread the word!
 
-If you want to say thank you and/or support active development of the Well app:
+If you want to say thank you and/or support active development of the Smart Hire:
 
 - Add a GitHub Star to the project!
 - Tweet about the project on your Twitter!
@@ -194,4 +194,4 @@ Thanks so much for your interest in growing the reach of the Smart Hire!
 
 # ⚠️ License
 
-The Well app is free and open-source software licensed under the GNU General Public License v3.0. All designs were created by [Priyansh Salian](https://github.com/priyanshpsalian) and distributed under Creative Commons license (CC BY-SA 4.0 International).
+The Smart Hire is free and open-source software licensed under the GNU General Public License v3.0. All designs were created by [Priyansh Salian](https://github.com/priyanshpsalian) and distributed under Creative Commons license (CC BY-SA 4.0 International).
